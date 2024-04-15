@@ -20,5 +20,14 @@ int main() {
         std::cout << "Iteration: " << i << std::endl;
     }
 
+    //foreach loop , it eases the traversal over iterable data sets such as arrays.
+    // just add a : in a for loop as follows....
+
+    int grades[] = {65, 72, 81, 93};
+    
+    for(int grade : grades) {
+        std::cout << grade << '\n';
+    }
+
     return 0;
 }

@@ -29,5 +29,10 @@ int main(int argc, char const *argv[])
     bool something = false;
     std::cout << !something << "\n"; // !op.
 
+    //sizeof() op. , it basically returns the amout of bytes req. to store anything such as variables,data types , classes , etc.
+    std::string students[] = {"habibi" , "chad" , "bilal"};
+    std::cout << sizeof(students)/sizeof(std::string) << " elements \n";
+    
+
     return 0;
 }

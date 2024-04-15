@@ -17,3 +17,5 @@ int main() {
 
     return 0;
 }
+
+// we can also pass functions as params to other func()s , but we need to explicitly also provide the size of the array in order for it to work.
