@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
     }
 
     bool something = false;
-    std::cout << !something << "\n"; //! op.
+    std::cout << !something << "\n"; // !op.
 
     return 0;
 }
