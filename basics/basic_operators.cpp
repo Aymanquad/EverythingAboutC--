@@ -34,5 +34,20 @@ int main(int argc, char const *argv[])
     std::cout << sizeof(students)/sizeof(std::string) << " elements \n";
     
 
+    // fill() = Fills a range of elements with a specified value (as the name suggests)
+    // syntax ... fill(begin, end, value)
+
+    const int SIZE = 99;
+    std::string foods[SIZE];
+
+    //just having the food array filled with 3 diff items...
+    fill (foods, foods + (SIZE/3), "pizza");
+    fill (foods + (SIZE/3), foods + (SIZE/3)*2, "hamburger");
+    fill (foods + (SIZE/3)*2, foods + SIZE, "hotdog");
+
+    for(std::string food : foods) {
+    std::cout << food << '\n';
+    }
+
     return 0;
 }
