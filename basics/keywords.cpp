@@ -1,4 +1,4 @@
-// const allows us to create unchangeble data objects just like in js . 
+// const allows us to create unchangeble(secure) data objects just like in js . 
 
 // namespaces are used to prevent naming conflicts of varoius different entities that are being used in a multiple 
 // same variable name env .  same named vars can be present only if they exist in diff. namespaces . 

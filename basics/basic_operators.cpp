@@ -2,14 +2,14 @@
 
 int main(int argc, char const *argv[])
 {
-    //ternary operator(?:)
+    //----ternary operator(?:)-----
     int grade = 50;
     grade >= 60 ? std::cout << "You pass!" : std::cout << "You fail!";
 
     int number = 9;
     number % 2 ? std::cout << "ODD" : std::cout << "EVEN";
 
-    //Logical Operators(&& , ! , ||)
+    //-----Logical Operators(&& , ! , ||)-----
 
     int temp;
     std::cout << "Enter the temperature:" ;
@@ -29,12 +29,12 @@ int main(int argc, char const *argv[])
     bool something = false;
     std::cout << !something << "\n"; // !op.
 
-    //sizeof() op. , it basically returns the amout of bytes req. to store anything such as variables,data types , classes , etc.
+    //-----sizeof() op.----- , it basically returns the amout of bytes req. to store anything such as variables,data types , classes , etc.
     std::string students[] = {"habibi" , "chad" , "bilal"};
     std::cout << sizeof(students)/sizeof(std::string) << " elements \n";
     
 
-    // fill() = Fills a range of elements with a specified value (as the name suggests)
+    // ----- fill() ----- = Fills a range of elements with a specified value (as the name suggests)
     // syntax ... fill(begin, end, value)
 
     const int SIZE = 99;
@@ -48,6 +48,10 @@ int main(int argc, char const *argv[])
     for(std::string food : foods) {
     std::cout << food << '\n';
     }
+
+    //----- address-of operator (&) ----- , returns the hexadecimal addr of the given variable
+    int marks = 92;
+    std::cout << &marks << "\n";
 
     return 0;
 }
