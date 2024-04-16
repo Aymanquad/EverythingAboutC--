@@ -1,6 +1,10 @@
 //  pointers are variables which point to certain addresses . easier to work with sometimes. and in arrays n lists , its always pointing to the 1st element .
 // we need both   & address-of operator    and the   * dereference operator 
 
+// A nullptr (null pointer) represnts a null pointer literal .
+//  its always a good practise to keep the pointer assigned to nullptr when not pointing to any address.
+// Note: Never deference a nullptr , as it leads to unknown behaviour .
+
 #include<iostream>
 
 int main(int argc, char const *argv[])
