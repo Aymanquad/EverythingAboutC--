@@ -1,6 +1,6 @@
 // Arrays is a data structure which is used to store heterogeneous(same) type of data together.
 
-//can be created using [] brackets just after the variable name and are stored in {} .
+//can be created using [] brackets just after the variable name and are stored in {} -> for starting initialization .
 
 #include<iostream>
 
